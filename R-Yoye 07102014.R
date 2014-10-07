@@ -55,7 +55,7 @@ cat('\n','--------------- Calculate UCL,CL,LCL for (R) ------------------','\n')
 cat('\n','UCL(R) =',UCLr,'CL(R) =',CLr,'LCL(R) =',LCLr,'\n')
 
 
-######### Check Condition Process (Not work!) #########
+
 ######## Calculate Step 2 ##############
 
 		u=1
