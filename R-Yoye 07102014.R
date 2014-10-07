@@ -89,7 +89,7 @@ cat('\n','UCL(R) =',UCLr,'CL(R) =',CLr,'LCL(R) =',LCLr,'\n')
 			u=u+1
 
 }
-return('\n',rl,'\n')
+return(rl)
 }
 
 #show calculate value
