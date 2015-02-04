@@ -90,9 +90,10 @@ cat ('\n',"R = ",R,'\n')
 					{
 							in.control=FALSE
 					} 
-						rll[i] = j
+					
 					
 				}
+				rll[i] = j
 
 		in.control = TRUE
 
@@ -107,13 +108,23 @@ cat ('\n',"R = ",R,'\n')
 					{
 							in.control=FALSE
 					} 
-						rlr[i] = jj
+					
 					
 				}
-		cat ('\n',"###################### Round = ",i,'\n')
+				rlr[i] = jj
+
+		#cat ('\n',"###################### Round = ",i,'\n')
 					
 		}
 
-	cat ('\n',"RL-R = ",rlr,"RL-L = ",rll,'\n')
+	cat ('\n',"RL-L = ",rll,'\n')
+	cat ('\n',"RL-R = ",rlr,'\n')
+
+
+######## Calculate ARL (L & R) ##########
+	#arll=mean(rll)
+	#arlr=mean(rll)
+	#cat ('\n',"ARL-L = ",arll,'\n')
+	#cat ('\n',"ARL-R = ",arlr,'\n')
 
 }
